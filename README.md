@@ -33,7 +33,7 @@ Para acessar o projeto no Visual Code através do prompt de comando, é só digi
 . code
 ```
 
-## Executar Aplicação no Prórpio GitHub
+## Executar Aplicação no Própio GitHub
 
 Passo a passo:
 
