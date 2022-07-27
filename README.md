@@ -20,13 +20,15 @@ npm --version 6.14.15
 
 ## Executar Aplicação no PC
 
-```bash
 Na raiz do projeto, abrir o prompt de comando e digitar o comando
 
+```bash
 npm run test
+```
 
 Para acessar o projeto no Visual Code através do prompt de comando, é só digitar o comando 
 
+```bash
 . code
 ```
 
