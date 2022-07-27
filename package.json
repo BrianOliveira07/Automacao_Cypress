@@ -1,0 +1,22 @@
+{
+  "name": "desafio_cypress",
+  "version": "1.0.0",
+  "description": "Validar algumas funções de um site",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrianOliveira07/Cypress.git"
+  },
+  "author": "Brian Ribeiro Oliveira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BrianOliveira07/Cypress/issues"
+  },
+  "homepage": "https://github.com/BrianOliveira07/Cypress#readme",
+  "devDependencies": {
+    "cypress": "^9.1.1"
+  }
+}
