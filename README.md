@@ -26,6 +26,7 @@ Na raiz do projeto, abrir o prompt de comando e digitar o comando
 ```bash
 npm run test
 ```
+Clicar em Run 3 integration specs
 
 Para acessar o projeto no Visual Code através do prompt de comando, é só digitar o comando 
 
