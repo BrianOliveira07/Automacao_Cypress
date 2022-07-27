@@ -10,6 +10,7 @@ npm install cypress@9.1.1 --save-dev
 
 * [Node.js (Versão: 14.18.1)](https://nodejs.org/en/)
 
+Depois validar a instalação:
 ```bash
 node --version v14.18.1
 npm --version 6.14.15
