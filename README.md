@@ -26,7 +26,9 @@ Na raiz do projeto, abrir o prompt de comando e digitar o comando
 ```bash
 npx cypress run
 ```bash
+
 ou
+
 ```bash
 npm run test
 ```
