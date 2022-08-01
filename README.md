@@ -24,6 +24,10 @@ npm --version 6.14.15
 Na raiz do projeto, abrir o prompt de comando e digitar o comando
 
 ```bash
+npx cypress run
+```bash
+ou
+```bash
 npm run test
 ```
 Clicar em Run 3 integration specs
