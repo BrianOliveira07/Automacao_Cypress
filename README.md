@@ -1,4 +1,4 @@
-# WebJump
+# Automação Cypress
 
 ## Requisitos:
 
