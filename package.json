@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BrianOliveira07/Cypress.git"
+    "url": "git+https://github.com/BrianOliveira07/Automacao_Cypress.git"
   },
   "author": "Brian Ribeiro Oliveira",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/BrianOliveira07/Cypress/issues"
+    "url": "https://github.com/BrianOliveira07/Automacao_Cypress/issues"
   },
-  "homepage": "https://github.com/BrianOliveira07/Cypress#readme",
+  "homepage": "https://github.com/BrianOliveira07/Automacao_Cypress#readme",
   "devDependencies": {
     "cypress": "^9.7.0",
     "cypress-cucumber-preprocessor": "^4.3.1"
