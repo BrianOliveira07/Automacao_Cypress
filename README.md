@@ -56,7 +56,7 @@ Step by step:
 
 * Click on Actions
 * Click on Cypress Regression Tests
-* Click Create workflow-cypress.yml
+* Click in the last update
 * Click on Re-run all jobs button
 
 Then check the result of the dashboard through the link:
