@@ -1,3 +1,6 @@
 {
-    "projectId": "usmosy"
+    "projectId": "usmosy",
+    "viewportWidth": 1440,
+    "viewportHeight": 900,
+    "baseUrl": "https://wj-qa-automation-test.github.io/qa-test"
 }

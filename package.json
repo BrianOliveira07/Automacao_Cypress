@@ -1,10 +1,13 @@
 {
-  "name": "desafio_cypress",
+  "name": "cypress_testing",
   "version": "1.0.0",
-  "description": "Validar algumas funções de um site",
+  "description": "WEB automation in BDD using Cucumber",
   "main": "index.js",
   "scripts": {
     "test": "npx cypress open"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/steps"
   },
   "repository": {
     "type": "git",
@@ -17,6 +20,7 @@
   },
   "homepage": "https://github.com/BrianOliveira07/Cypress#readme",
   "devDependencies": {
-    "cypress": "^9.1.1"
+    "cypress": "^9.7.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
   }
 }

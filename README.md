@@ -1,58 +1,68 @@
-# WebJump
+# Cypress Automation
+WEB automation in BDD using Cucumber
 
-## Requisitos:
+## Requirements:
 
-* [Cypress (Versão: 9.1.1)](https://www.cypress.io/)
+* [Cypress (Versão: 9.7.0)](https://www.cypress.io/)
 
 ```bash
-npm install cypress@9.1.1 --save-dev
+npm install cypress@9.7.0 --save-dev
 ```
 
-* [Node.js (Versão: 14.18.1)](https://nodejs.org/en/)
-
-Depois validar a instalação:
 ```bash
-node --version v14.18.1
-npm --version 6.14.15
+npm install cypress-cucumber-preprocessor --save-dev
+```
+
+* [Node.js (Versão: 16.17.0)](https://nodejs.org/en/)
+
+After validating the installation:
+```bash
+node --version v16.17.0
+npm --version 8.15.0
 ```
 
 * [Gitbash](https://www.git-scm.com/downloads)
 * [Visual Studio Code](https://code.visualstudio.com/)
 
-## Executar Aplicação no PC
-
-Na raiz do projeto, abrir o prompt de comando e digitar o comando
+## Update scripts to file cypress/plugins/index.js
 
 ```bash
-npm run test
+const cucumber = require('cypress-cucumber-preprocessor').default
+module.exports = (on, config) => {
+  on('file:preprocessor', cucumber())
+}
 ```
-Clicar em Run 3 integration specs
 
-Depois
+## Update scripts to file package.json
+
+```
+ "cypress-cucumber-preprocessor": {
+        "step_definitions": "cypress/support/steps"
+}
+```
+
+## Run Application on PC
+
+In the root of the project, open the command prompt and type the command:
 
 ```bash
-npx cypress run
+npm test
 ```
+Click on Run 3 integration specs
 
-Para acessar o projeto no Visual Code através do prompt de comando, é só digitar o comando 
+## Run Application on Own GitHub
 
-```bash
-code .
-```
+Step by step:
 
-## Executar Aplicação no Próprio GitHub
+* Click on Actions
+* Click on Cypress Regression Tests
+* Click Create workflow-cypress.yml
+* Click on Re-run all jobs button
 
-Passo a passo:
-
-* Clicar em Actions
-* Clicar em Cypress Regression Tests
-* Clicar em Create workflow-cypress.yml
-* Clicar no botão Re-run all jobs
-
-Depois verificar o resultado do dashboard através do link:
+Then check the result of the dashboard through the link:
 
 [Dashboard](https://dashboard.cypress.io/projects/usmosy/runs?branches)
 
-Feito por Brian Oliveira [Acesse meu linkedin](https://www.linkedin.com/in/brian-oliveira-385356122/)
+Made by Brian Oliveira [Access my linkedin](https://www.linkedin.com/in/brian-oliveira-385356122/)
 
 [![Linkedin](https://img.shields.io/badge/-LinkedIn-595D60?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/nayaraquino//)](https://www.linkedin.com/in/brian-oliveira-385356122/)
