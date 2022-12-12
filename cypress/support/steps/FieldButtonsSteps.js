@@ -13,7 +13,7 @@ And('click button one', () => {
     step.clickOne()
 })
 
-And('click on option two', () => {
+And('click on option three', () => {
     step.clickCheckBox()
 })
 

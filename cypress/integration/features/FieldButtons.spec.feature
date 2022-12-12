@@ -6,6 +6,6 @@ Feature: Field Buttons
         Given that I access the site
         And write a name on the form
         And click button one
-        And click on option two
+        And click on option three
         And i select example two from the drop-down list
         Then validate the selenium image contained in the page
